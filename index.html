@@ -10,9 +10,12 @@
     <meta name="author" content="">
 
     <title>Portafolio EulerRG</title>
+    
+    <link rel="stylesheet" href="ifonts/style.css">
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -44,7 +47,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Euler RG <sup style="font-family: sans-serif">&reg;</sup></a>
+                <a class="navbar-brand" href="#page-top">Sistemas UNC <sup style="font-family: sans-serif">&reg;</sup></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,16 +57,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#inicio">Inicio</a>
+                        <a href="#inicio"><span class="icon-home"></span> Inicio</a>
+                                            </li>
+                    <li class="page-scroll">
+                        <a href="#portafolio"><span class="icon-text-document"></span> Portafolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portafolio">Portafolio</a>
+                        <a href="#about"><span class="icon-user font"></span> Acerca de</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">Acerca de</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contacto</a>
+                        <a href="#contact"><span class="icon-mobile"></span> Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -77,11 +80,11 @@
         <div class="container" id="inicio" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="img/perf.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">Euler Rodriguez Garcia</h1>
                         <hr class="star-light">
-                        <span class="skills">Diseñador Web - Diseñador Gráfico- Consultor Web </span>
+                        <span class="skills">Ingenieria Web - Ingenieria de Sistemas- UNC </span>
                     </div>
                 </div>
             </div>
@@ -167,20 +170,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Acerca de</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>Este es un repositorio, donde encontrara almacenado información digital, generalmente archivos informáticos afines con Ingenieria de Sistemas.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>Si desea descargar algún archivo alojado en esta página, no dude en ponerse en contacto con nosotros!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                        <i class="fa fa-download"></i> Descargar
                     </a>
                 </div>
             </div>
@@ -192,7 +195,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Contactame</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -203,29 +206,29 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor ingresar nombre.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="email">Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor ingresar su Correo.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <label for="phone">Numero de Telefono</label>
+                                <input type="tel" class="form-control" placeholder="Telefono" id="phone" required data-validation-required-message="Por favor ingresar su número de Telefono.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label for="message">Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <label for="message">Mensage</label>
+                                <textarea rows="5" class="form-control" placeholder="Mensage" id="message" required data-validation-required-message="Por favor ingresar un mensage"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -233,7 +236,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
                             </div>
                         </div>
                     </form>
@@ -248,12 +251,12 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <h3>CIUDAD</h3>
+                        <p>Cajamarca-Perú
+                            <br>Jr. Gladiolos #0001, CA +076</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Sigueme</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>

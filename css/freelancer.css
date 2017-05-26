@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: url("../img/portfolio/cab.png") no-repeat;
+  background-color: #0f2453;
   background-size: cover;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -134,13 +134,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #05605f;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #05605f;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -546,4 +546,9 @@ header {
 
 .intro-text h1{
 	color: #ffce14;
+}
+section{
+	background: url("../img/sect.png");
+	background-size: cover;
+  
 }
