@@ -1,3 +1,37 @@
+body{
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+
+element.style {
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffce14;
+    border: 2px solid #ffce14;
+    border-radius: 10px;
+    margin-right: 5px;
+    line-height:inherit;
+}
+.nav > li.active > a {
+    border-radius: 9px;
+}
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #ffce14;
+    text-decoration: none;
+}
+
+element.style {
+    background-color: #0f2453;
+}
+
+
 .container {
     float: right;
     padding-top: 10px;
@@ -49,7 +83,7 @@ header h1 {
     color: #ffce14;
     line-height: 70px;
     text-align: center;
-    background-color: #0f5336;
+    background-color: #0f2453;
     font-family: 'Frijole', cursive;
 }
 
@@ -61,9 +95,10 @@ header h1 {
     border: teal;
     font-family: 'Frijole', cursive;
     font-size: 20px;
-    background-color: #1f4204;
-    text-align: center;   
-    
+    background-color: #00ae26;
+    text-align: center;
+
+
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -73,17 +108,22 @@ header h1 {
 .sidenav {
     padding-top: 2px;
     padding-bottom: 14px;
-    background-color: #0f5336;
+    background-color: rgba(0, 0, 0, 0.31);
     height: 100%;
     font-size: 20px;
     padding-bottom: 10px;
-    
+
+}
+
+.nav-tabs a, .nav-pills a, .breadcrumb a, .pager a {
+    background-color: rgba(7, 130, 111, 0.94);
+        font-size: 20px;
 }
 
 /* Set black background color, white text and some padding */
 footer {
-    background-color: #0f5336;
-    color: white;
+    background-color: #00ae26;
+    /*color: white;*/
     padding: 15px;
 }
 
