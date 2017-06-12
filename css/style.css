@@ -1601,8 +1601,9 @@ ul.bs-glyphicons-list {
     padding: 0;
 }
 .w3ls_head {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif cursive;
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 2em;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -3155,7 +3156,7 @@ a {
 
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",cursive,Helvetica,Arial,sans-serif;
     font-size: 18px;
     line-height: 1.42857143;
     color: #b41d1d;
